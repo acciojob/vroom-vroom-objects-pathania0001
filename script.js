@@ -17,7 +17,7 @@ function SportsCar(make, model, topSpeed) {
 	}
 }
 
-SportsCar.prototype = Object.create(Car.prototype ,{constructor:{value:SuperCar}})
+SportsCar.prototype = Object.create(Car.prototype ,{constructor:{value:SportsCar}})
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
